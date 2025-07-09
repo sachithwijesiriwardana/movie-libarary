@@ -23,11 +23,28 @@
 }
 
 @media (max-width: 768px) {
+  .libary {
+    margin-left: 50px;
+    padding: 0 15px;
+  }
   .libary h1 {
     font-size: 2rem;
   }
-
   .libary p {
     font-size: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .libary {
+    margin-left: 15px;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .libary h1 {
+    font-size: 1.6rem;
+  }
+  .libary p {
+    font-size: 0.9rem;
+    text-align: left;
   }
 }

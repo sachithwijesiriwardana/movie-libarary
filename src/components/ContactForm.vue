@@ -1,6 +1,6 @@
 <script setup>
 import "../styles/contact.css";
-import useFormValidation from "../composables/useFormValidation"; // adjust the path
+import useFormValidation from "../composables/useFormValidation";
 
 const { form, errors, handleSubmit } = useFormValidation();
 </script>
